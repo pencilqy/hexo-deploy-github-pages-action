@@ -38,6 +38,10 @@ echo ">>> Install Git ..."
 apt-get update && \
 apt-get install -y git && \
 
+# Install Pandoc
+echo ">>> Install Pandoc ..."
+apt-get install -y pandoc && \
+
 # Directs the action to the the Github workspace.
 cd "${GITHUB_WORKSPACE}"
 
